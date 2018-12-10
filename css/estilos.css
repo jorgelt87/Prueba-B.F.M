@@ -1,0 +1,376 @@
+
+
+/* Definición del sistema de rejilla */
+/* ---------------------------------------------------------- */
+* {
+    box-sizing: border-box;
+}
+.imag-1{
+  width: 240px;
+}
+label{
+  padding:10px;
+}
+p{
+  padding: 10px;
+}
+h4{
+  padding: 10px;
+  text-align: center;
+}
+header{
+    width: 100%;
+    background-color: #5b7989;
+    margin-bottom: 0px;
+    overflow: hidden;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    font-family: 'Courgette', cursive;
+}
+div .image1{
+    text-align: center;
+}
+div .image2{
+      text-align: center;
+}
+.comenta{
+  width: 90%;
+  border-radius: 10px;
+}
+header .logo {
+background-color: #5b7989;
+  font-size: 20px;
+  line-height: 100px;
+  float: left;
+  margin-left: 30px;
+}
+header nav{
+  float: right; /*para usar este devemos poner debemos poner "overflow: hidden"*/
+  margin: 20px;
+  line-height: 200px
+  color:white;
+  background-color: #5b7989;
+}
+header nav a{
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  display: inline-block;
+  color: white;
+  text-decoration: underline;
+  margin: 10px 20px;
+  line-height: normal;
+  font-size: 20px;
+  font-weight:  bold;
+  -webkit-transition:all 500ms ease; /*para dar efecto ccon :hover*/
+  -o-transition:all 500ms ease; /*para dar efecto ccon :hover*/
+  -moz-transition:all 500ms ease; /*para dar efecto ccon :hover*/
+  text-shadow: 2px 2px 2px #02010a;
+  background-color: #5b7989;
+}
+header nav a:hover{
+
+    border-radius: 30px;
+    background-color:	#2F4F4F;
+    text-shadow: 2px 2px 2px #02010a;
+    font-size: 25px;
+}
+
+
+.center{
+display: block; margin: 0 auto;"
+}
+.cc{
+      min-height: 30px;
+      display: flex;
+    	flex-flow: row wrap;
+      text-align: center;
+}
+.ul-2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+        width: 100%;
+}
+.li-2 {
+    float: left;
+}
+.li-a-2 {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+        width: 170px;
+}
+.div-redes{
+  text-align: right;
+}
+.ul-1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+        width: 100%;
+}
+
+.li-1 {
+    float: left;
+}
+
+.li-a-1 {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+        width: 100px;
+}
+
+.li-a-2:hover {
+    background-color: #111;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 1px;
+    /*  border: 1px solid black;*/
+    min-height: 30px;
+  /*  height: 100%;*/
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+/* ---------------------------------------------------------- */
+
+
+
+/* Alto de fila del mismo tamaño de su contenedor*/
+.fila {
+    min-height: 50px auto;
+    height: 100%;
+}
+
+/* Alto de fila de la mitad de tamaño de su contenedor*/
+.fila-media {
+    height: 50%;
+}
+
+/* Elimina el padding de un elemento */
+.nopadding{
+  padding: 0px;
+}
+
+
+
+/* Clases propias del estilo de la página */
+/* -----------------------------------------------------------*/
+.contenedor{
+  width: 100%;
+  height: 80%;
+  margin: 0px auto;
+  border: 3px solid red;
+  padding: 0px;
+}
+.logo, .navegacion{
+  height:  0px;
+}
+
+.contenido{
+  height: 500px;
+    background: yellow;
+}
+.main {
+  margin: 10px 0;
+}
+.menu-izq{
+  height: 250px;
+}
+/*-------------------------------------------------------------*/
+.logo2{
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.inpcent{
+  align-items: center;
+
+}
+
+@media all and (max-width: 500px) {
+  .li-a-2 {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      width: 100%;
+  }
+  .li-2{
+    width: 100%;
+  text-align: center;
+  }
+  .imglogo{
+    width: 100%;
+    align-items: center;
+  }
+  .header-1 {
+    justify-content: space-between;
+    width: 100%;
+    order: 1;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+	.c1 {
+
+		order: 1;
+	}
+  .div-redes {
+		width: 100%;
+		order: 2;
+    justify-content: space-between;
+
+	}
+	.c2 {
+		width: 100%;
+		order: 2;
+	}
+	.c3 {
+		width: 100%;
+		order: 3;
+	}
+  .contenedor div{
+    display: block;
+  }
+  .tex1{
+    order: 1;
+      width: 100%;
+  }
+  .image1{
+    order: 2;
+      width: 100%;
+  }
+  .comentario1{
+    order: 3;
+      width: 100%;
+  }
+.tex2{
+  order: 4;
+    width: 100%;
+}
+.image2{
+order: 5;
+  width: 100%;
+}
+.comentario2{
+  order: 6;
+  width: 100%;
+}
+header{
+
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 0px;
+  overflow: hidden;
+  border-top-left-radius:10px ;
+  border-top-right-radius:10px ;
+  font-family: 'Courgette', cursive;
+  height: 150px;
+  }
+  header .logo {
+    align-items: center;
+    font-size: 18px;
+    /* line-height: 70px; */
+    float: left;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    background-color: #5b7989;
+  }
+  header div{
+    width: 100%;
+    text-align: center;
+    height: 40px;
+  }
+  header nav{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+  .menu a{
+    font-size: 15px;
+    padding: 0;
+    margin: 0px;
+    line-height: 15px;
+  }
+
+
+.logo, .navegacion{
+  height: 100px;
+}
+
+}
+
+@media all and (max-width: 800px) and (min-width: 500px) {
+	.c1 {
+		width: 40px;
+
+	}
+	.c2 {
+		width: 80%;
+	}
+	.c3 {
+		width: 100%;
+	}
+}
+
+.contenedor2 {
+	margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+	flex-flow: row wrap;
+}
+.contenedor2 div {
+  box-sizing: border-box;
+
+
+}
+.c1{
+  background-color: ;
+    box-sizing: border-box;
+
+}
+.c2{
+  background-color: ;
+    box-sizing: border-box;
+
+}
+.c3{
+  background-color: orange;
+}
+.row{
+  margin: 2px;
+  width: 100%;
+}
+.row div .row1{
+display:  flex;
+  flex-flow: row wrap;
+}
